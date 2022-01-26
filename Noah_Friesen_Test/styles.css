@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+header {
+	width: 1200px;
+	height: 100px;
+	background: #1F1F1F;
+}
+
+nav {
+	width: 1200px;
+	height: 20px;
+	background: #D1D1D1;
+}
+
+main {
+	width: 1200px;
+	height: 600px;
+	background: #1f1f1f;
+}
+
+footer {
+	width: 1200px;
+	height: 20px;
+	background: #D1D1D1;
+}

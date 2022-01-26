@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+nav {
+    position: relative;
+    height: 100px;
+    width: 1200px;
+    background: black;
+    border: 1px solid red;
+    /* margin-right: auto;
+    margin-left: auto; */
+}
+
+#composition{
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    background: rgb(219, 219, 219);
+    border: 1px solid red;
+    /* margin-right: auto;
+    margin-left: auto; */
+}
+
+#headtext{
+    position: relative;
+    width: 240px;
+    height: 66px;
+    border: 1px solid red;
+    margin-top: 10px;
+    /* margin-right: auto;
+    margin-left: auto; */
+}
+
+#detailtext {
+    position: relative;
+    width: 600px;
+    height: 150px;
+    border: 1px solid red;
+    margin-top: 10px;
+    /* margin-right: auto;
+    margin-left: auto; */
+}
