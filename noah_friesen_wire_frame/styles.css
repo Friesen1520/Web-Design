@@ -3,6 +3,8 @@
 body {
     margin: 0px;
     margin-bottom: 10px;
+    background: white;
+    /* background: rgb(23, 31, 36); */
 }
 
 nav {
@@ -13,16 +15,20 @@ nav {
     border: 1px solid black;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
+    /* line-height: 80px; */
 }
 
 #composition{
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 630px;
     background: orange;
     border: 1px solid black;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
+    line-height: 500px;
 }
 
 #headtext{
@@ -34,15 +40,23 @@ nav {
     margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
 }
 
 #detailtext {
     position: relative;
     width: 50%;
-    height: 175px;
+    height: 300px;
     background: green;
     border: 1px solid black;
     margin-top: 30px;
+    margin-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
+    padding: 20px;
+    padding-bottom: auto;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
 }
