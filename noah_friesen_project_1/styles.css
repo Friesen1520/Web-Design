@@ -12,7 +12,6 @@ body {
     width: 1200px;
     height: 70px;
     top: 0;
-    border: 1px solid black;
     margin: 0 auto;
     background-color: #005a42;
 
@@ -25,7 +24,6 @@ body {
     float: left;
     margin-top: 10px;
     left: 50px;
-    border: 1px solid red;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     line-height: 50px;
@@ -37,7 +35,6 @@ body {
     height: 100%;
     float: right;
     right: 90px;
-    border: 1px solid red;
 }
 
 .nbutton{
@@ -51,6 +48,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     line-height: 50px;
+    transition: 0.3s;
+}
+
+.nbutton:hover{
+    color: rgb(255, 157, 0);
 }
 
 #content{
@@ -58,7 +60,6 @@ body {
     width: 1200px;
     height: 600px;
     top: -1px;
-    border: 1px solid black;
     margin: 0 auto;
     background-color: black;
 }
@@ -68,7 +69,6 @@ body {
     height: 100%;
     width: 60%;
     float: left;
-    border: 1px solid green;
 }
 
 #detail{
@@ -76,7 +76,6 @@ body {
     height: 100%;
     width: 39.6%;
     float: right;
-    border: 1px solid red;
 }
 
 #title {
@@ -85,7 +84,6 @@ body {
     top: 15%;
     width: 95%;
     margin: 0 auto;
-    border: 1px solid blue;
     color: #005a42;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
@@ -97,10 +95,9 @@ body {
 #desc {
     position: relative;
     height: 200px;
-    top: 20%;
+    top: 30%;
     width: 90%;
     margin: 0 auto;
-    border: 1px solid blue;
     color: #005a42;
 
 }
@@ -111,7 +108,6 @@ body {
     top: 25%;
     width: 80%;
     margin: 0 auto;
-    border: 1px solid blue;
 }
 
 .dbutton {
@@ -124,4 +120,10 @@ body {
     background: #005a42;
     border: 0;
     border-radius: 10px;
+    transition: 0.3s;
+}
+
+.dbutton:hover{
+    color: rgb(255, 157, 0);
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.4);
 }
