@@ -65,23 +65,30 @@ body {
     height: 600px;
     top: -1px;
     margin: 0 auto;
-    background-color: black;
-}
-
-#image {
-    position: relative;
-    height: 100%;
-    width: 60%;
-    float: left;
-}
-
-#detail{
-    position: relative;
-    height: 100%;
-    width: 39.6%;
-    float: right;
     background-color: #010f1b;
+}
 
+#image{
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 600px;
+}
+
+#image img{
+    position: inherit;
+    height: inherit;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#detail {
+    position: inherit;
+    float: right;
+    width: 40%;
+    height: 600px;
 }
 
 #title {
@@ -94,46 +101,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: bold;
-    line-height: 50px;
+    line-height: 90px;
     text-align: center;
 }
 
 #desc {
     position: relative;
-    height: 200px;
+    height: 300px;
     top: 25%;
     width: 90%;
     margin: 0 auto;
     line-height: 25px;
     color: #008a65;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-#buttons {
-    position: relative;
-    height: 90px;
-    top: 25%;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.dbutton {
-    position: relative;
-    float: left;
-    height: 100%;
-    width: 150px;
-    margin-right: 20px;
-    margin-left: 20px;
-    background-color: #008a65;
-    color: #010f1b;
-    font-weight: bold;
-    font-size: 20px;
-    border: 0;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-.dbutton:hover{
-    color: #a997df;
-    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.4);
 }
