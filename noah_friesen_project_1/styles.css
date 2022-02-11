@@ -13,8 +13,9 @@ body {
     height: 70px;
     top: 0;
     margin: 0 auto;
-    background-color: #008a65;
-
+    background-color: #B48F7D;
+    box-shadow: 0px 10px 5px -1px rgba(0, 0, 0, 0.4);
+    z-index: 1;
 }
 
 #logo {
@@ -26,7 +27,7 @@ body {
     left: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: #010f1b;
+    color: #EBE2D3;
     font-size: 30px;
     line-height: 50px;
 }
@@ -51,12 +52,14 @@ body {
     font-weight: bold;
     font-size: 25px;
     line-height: 50px;
-    color: #010f1b;
+    color: #EBE2D3;
     transition: 0.3s;
 }
 
 .nbutton:hover{
-    color: #a997df;
+    color: #8D5858;
+    text-decoration: underline;
+    text-decoration-color: #8D5858;
 }
 
 #content{
@@ -65,7 +68,8 @@ body {
     height: 600px;
     top: -1px;
     margin: 0 auto;
-    background-color: black;
+    background-color: #3E3E4A;
+    z-index: 0;
 }
 
 #image {
@@ -80,7 +84,7 @@ body {
     height: 100%;
     width: 39.6%;
     float: right;
-    background-color: #010f1b;
+    background-color: #3E3E4A;
 
 }
 
@@ -90,7 +94,7 @@ body {
     top: 15%;
     width: 95%;
     margin: 0 auto;
-    color: #008a65;
+    color: #EBE2D3;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: bold;
@@ -105,7 +109,7 @@ body {
     width: 90%;
     margin: 0 auto;
     line-height: 25px;
-    color: #008a65;
+    color: #EBE2D3;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -124,16 +128,16 @@ body {
     width: 150px;
     margin-right: 20px;
     margin-left: 20px;
-    background-color: #008a65;
-    color: #010f1b;
+    background-color: #B48F7D;
+    color: #EBE2D3;
     font-weight: bold;
     font-size: 20px;
     border: 0;
-    border-radius: 10px;
+    border-radius: 8px;
     transition: 0.3s;
 }
 
 .dbutton:hover{
-    color: #a997df;
-    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.4);
+    color: #8D5858;
+    /* box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.4); */
 }
